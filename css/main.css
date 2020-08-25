@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+main {
+    display:flex;
+    flex-direction:column;
+}
+#page {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto;
+}
+#search-btns {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.btn {
+    background-color: #eee;
+    width: 150px;
+    height: 30px;
+    border-radius: 5%;
+}
+header {
+    display:flex;
+}
+footer {
+    display:flex;
+    background-color: #eee;
+}
+#top-right {
+    align-self: flex-end;
+    position: absolute;
+    right: 0px;
+}
+#top-left {
+    align-self: flex-start;
+    position: absolute;
+    left: 0px;
+}
